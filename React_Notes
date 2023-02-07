@@ -108,3 +108,37 @@ for -> htmlFor
 camelCase property naming convention
 onclick -> onClick
 tabindex -> tabindex
+
+Props vs State :-
+---------------------
+Props and state are used to hold the information that influence the UI in the browser .
+
+props                                     state
+-------                                   ------
+props get passed to the component         state is managed within the component
+Function parameters                       Variables declared in the function body
+props are immutable                       state can be changed
+props Functional Components               useState Hook - Functional Components
+this.props - Class Components             this.state - Class Components
+
+state :- 
+-------
+state is nothing but an object privately maintained inside a component.
+state can changed with in the component using setstate().
+
+setState() :-
+----------------
+setState method has 2 parameters first param is object and the second param is callback method.
+if we write any console statement after the setState it excutes first like asynchronus call.
+Always make use of setState and never modify the state directly.
+Code has to be executed after the state has been updated ? Place that code in the call back function which is the second argument to the setState method.
+When you have to update state based on the previous state value, pass in a function as anargument instead of the regular object.
+
+Destructing of props and State :-
+-----------------------------------
+this concept is used increase the readability of the code.
+
+Binding of Events :-
+-----------------------
+This keyword is undefined in eventhandlers , so binding is necessary.
+
