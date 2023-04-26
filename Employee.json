@@ -1,1 +1,107 @@
-Entity(schemaName=Jasper Report, tableName=Employee, entityPropertyList=[EntityProperty(columnName=emp_id, columnType=java.lang.Long, columnDisplayName=Emp Id), EntityProperty(columnName=name, columnType=java.lang.String, columnDisplayName=Name), EntityProperty(columnName=salary, columnType=java.lang.Double, columnDisplayName=Salary)], childTables=[Entity(schemaName=Jasper Report, tableName=Address, entityPropertyList=[EntityProperty(columnName=address_id, columnType=java.lang.Long, columnDisplayName=Address Id), EntityProperty(columnName=city, columnType=java.lang.String, columnDisplayName=City), EntityProperty(columnName=district, columnType=java.lang.String, columnDisplayName=District), EntityProperty(columnName=house_number, columnType=java.lang.String, columnDisplayName=House Number), EntityProperty(columnName=pin_code, columnType=java.lang.Long, columnDisplayName=Pin Code)], childTables=[], order=0), Entity(schemaName=Jasper Report, tableName=Asset, entityPropertyList=[EntityProperty(columnName=asset_id, columnType=java.lang.Long, columnDisplayName=Asset Id), EntityProperty(columnName=asset_number, columnType=java.lang.Integer, columnDisplayName=Asset Number), EntityProperty(columnName=location, columnType=java.lang.String, columnDisplayName=Location)], childTables=[Entity(schemaName=Jasper Report, tableName=Asset Details, entityPropertyList=[EntityProperty(columnName=asset_details_id, columnType=java.lang.Long, columnDisplayName=Asset Details Id), EntityProperty(columnName=brand_name, columnType=java.lang.Integer, columnDisplayName=Brand Name), EntityProperty(columnName=model_name, columnType=java.lang.Integer, columnDisplayName=Model Name), EntityProperty(columnName=ram, columnType=java.lang.Integer, columnDisplayName=Ram)], childTables=[], order=0)], order=0)], order=0)
+{
+    "childTables": [
+        {
+            "childTables": [],
+            "entityPropertyList": [
+                {
+                    "columnType": "java.lang.Long",
+                    "columnDisplayName": "Address Id",
+                    "columnName": "address_id"
+                },
+                {
+                    "columnType": "java.lang.String",
+                    "columnDisplayName": "City",
+                    "columnName": "city"
+                },
+                {
+                    "columnType": "java.lang.String",
+                    "columnDisplayName": "District",
+                    "columnName": "district"
+                },
+                {
+                    "columnType": "java.lang.String",
+                    "columnDisplayName": "House Number",
+                    "columnName": "house_number"
+                },
+                {
+                    "columnType": "java.lang.Long",
+                    "columnDisplayName": "Pin Code",
+                    "columnName": "pin_code"
+                }
+            ],
+            "schemaName": "Jasper Report",
+            "order": 0,
+            "tableName": "Address"
+        },
+        {
+            "childTables": [{
+                "childTables": [],
+                "entityPropertyList": [
+                    {
+                        "columnType": "java.lang.Long",
+                        "columnDisplayName": "Asset Details Id",
+                        "columnName": "asset_details_id"
+                    },
+                    {
+                        "columnType": "java.lang.Integer",
+                        "columnDisplayName": "Brand Name",
+                        "columnName": "brand_name"
+                    },
+                    {
+                        "columnType": "java.lang.Integer",
+                        "columnDisplayName": "Model Name",
+                        "columnName": "model_name"
+                    },
+                    {
+                        "columnType": "java.lang.Integer",
+                        "columnDisplayName": "Ram",
+                        "columnName": "ram"
+                    }
+                ],
+                "schemaName": "Jasper Report",
+                "order": 0,
+                "tableName": "Asset Details"
+            }],
+            "entityPropertyList": [
+                {
+                    "columnType": "java.lang.Long",
+                    "columnDisplayName": "Asset Id",
+                    "columnName": "asset_id"
+                },
+                {
+                    "columnType": "java.lang.Integer",
+                    "columnDisplayName": "Asset Number",
+                    "columnName": "asset_number"
+                },
+                {
+                    "columnType": "java.lang.String",
+                    "columnDisplayName": "Location",
+                    "columnName": "location"
+                }
+            ],
+            "schemaName": "Jasper Report",
+            "order": 0,
+            "tableName": "Asset"
+        }
+    ],
+    "entityPropertyList": [
+        {
+            "columnType": "java.lang.Long",
+            "columnDisplayName": "Emp Id",
+            "columnName": "emp_id"
+        },
+        {
+            "columnType": "java.lang.String",
+            "columnDisplayName": "Name",
+            "columnName": "name"
+        },
+        {
+            "columnType": "java.lang.Double",
+            "columnDisplayName": "Salary",
+            "columnName": "salary"
+        }
+    ],
+    "schemaName": "Jasper Report",
+    "order": 0,
+    "tableName": "Employee"
+}
