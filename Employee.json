@@ -1,1 +1,107 @@
-{"childTables":[{"childTables":[],"entityPropertyList":[{"columnType":"java.lang.Long","columnDisplayName":"Address Id","columnName":"address_id"},{"columnType":"java.lang.String","columnDisplayName":"City","columnName":"city"},{"columnType":"java.lang.String","columnDisplayName":"District","columnName":"district"},{"columnType":"java.lang.String","columnDisplayName":"House Number","columnName":"house_number"},{"columnType":"java.lang.Long","columnDisplayName":"Pin Code","columnName":"pin_code"}],"schemaName":"Jasper Report","order":0,"tableName":"Address"},{"childTables":[{"childTables":[],"entityPropertyList":[{"columnType":"java.lang.Long","columnDisplayName":"Asset Details Id","columnName":"asset_details_id"},{"columnType":"java.lang.Integer","columnDisplayName":"Brand Name","columnName":"brand_name"},{"columnType":"java.lang.Integer","columnDisplayName":"Model Name","columnName":"model_name"},{"columnType":"java.lang.Integer","columnDisplayName":"Ram","columnName":"ram"}],"schemaName":"Jasper Report","order":0,"tableName":"Asset Details"}],"entityPropertyList":[{"columnType":"java.lang.Long","columnDisplayName":"Asset Id","columnName":"asset_id"},{"columnType":"java.lang.Integer","columnDisplayName":"Asset Number","columnName":"asset_number"},{"columnType":"java.lang.String","columnDisplayName":"Location","columnName":"location"}],"schemaName":"Jasper Report","order":0,"tableName":"Asset"}],"entityPropertyList":[{"columnType":"java.lang.Long","columnDisplayName":"Emp Id","columnName":"emp_id"},{"columnType":"java.lang.String","columnDisplayName":"Name","columnName":"name"},{"columnType":"java.lang.Double","columnDisplayName":"Salary","columnName":"salary"}],"schemaName":"Jasper Report","order":0,"tableName":"Employee"}
+{
+ "childTables": [
+  {
+   "childTables": [],
+   "entityPropertyList": [
+    {
+     "columnType": "java.lang.Long",
+     "columnDisplayName": "Address Id",
+     "columnName": "address_id"
+    },
+    {
+     "columnType": "java.lang.String",
+     "columnDisplayName": "City",
+     "columnName": "city"
+    },
+    {
+     "columnType": "java.lang.String",
+     "columnDisplayName": "District",
+     "columnName": "district"
+    },
+    {
+     "columnType": "java.lang.String",
+     "columnDisplayName": "House Number",
+     "columnName": "house_number"
+    },
+    {
+     "columnType": "java.lang.Long",
+     "columnDisplayName": "Pin Code",
+     "columnName": "pin_code"
+    }
+   ],
+   "schemaName": "jasper report",
+   "order": 0,
+   "tableName": "Address"
+  },
+  {
+   "childTables": [{
+    "childTables": [],
+    "entityPropertyList": [
+     {
+      "columnType": "java.lang.Long",
+      "columnDisplayName": "Asset Details Id",
+      "columnName": "asset_details_id"
+     },
+     {
+      "columnType": "java.lang.Integer",
+      "columnDisplayName": "Brand Name",
+      "columnName": "brand_name"
+     },
+     {
+      "columnType": "java.lang.Integer",
+      "columnDisplayName": "Model Name",
+      "columnName": "model_name"
+     },
+     {
+      "columnType": "java.lang.Integer",
+      "columnDisplayName": "Ram",
+      "columnName": "ram"
+     }
+    ],
+    "schemaName": "jasper report",
+    "order": 0,
+    "tableName": "Asset Details"
+   }],
+   "entityPropertyList": [
+    {
+     "columnType": "java.lang.Long",
+     "columnDisplayName": "Asset Id",
+     "columnName": "asset_id"
+    },
+    {
+     "columnType": "java.lang.Integer",
+     "columnDisplayName": "Asset Number",
+     "columnName": "asset_number"
+    },
+    {
+     "columnType": "java.lang.String",
+     "columnDisplayName": "Location",
+     "columnName": "location"
+    }
+   ],
+   "schemaName": "jasper report",
+   "order": 0,
+   "tableName": "Asset"
+  }
+ ],
+ "entityPropertyList": [
+  {
+   "columnType": "java.lang.Long",
+   "columnDisplayName": "Emp Id",
+   "columnName": "emp_id"
+  },
+  {
+   "columnType": "java.lang.String",
+   "columnDisplayName": "Name",
+   "columnName": "name"
+  },
+  {
+   "columnType": "java.lang.Double",
+   "columnDisplayName": "Salary",
+   "columnName": "salary"
+  }
+ ],
+ "schemaName": "jasper report",
+ "order": 0,
+ "tableName": "Employee"
+}
