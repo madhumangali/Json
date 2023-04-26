@@ -1,0 +1,50 @@
+{
+ "childTables": [{
+  "childTables": [],
+  "entityPropertyList": [
+   {
+    "columnType": "java.lang.Long",
+    "columnDisplayName": "Asset Details Id",
+    "columnName": "asset_details_id"
+   },
+   {
+    "columnType": "java.lang.Integer",
+    "columnDisplayName": "Brand Name",
+    "columnName": "brand_name"
+   },
+   {
+    "columnType": "java.lang.Integer",
+    "columnDisplayName": "Model Name",
+    "columnName": "model_name"
+   },
+   {
+    "columnType": "java.lang.Integer",
+    "columnDisplayName": "Ram",
+    "columnName": "ram"
+   }
+  ],
+  "schemaName": "jasper report",
+  "order": 0,
+  "tableName": "Asset Details"
+ }],
+ "entityPropertyList": [
+  {
+   "columnType": "java.lang.Long",
+   "columnDisplayName": "Asset Id",
+   "columnName": "asset_id"
+  },
+  {
+   "columnType": "java.lang.Integer",
+   "columnDisplayName": "Asset Number",
+   "columnName": "asset_number"
+  },
+  {
+   "columnType": "java.lang.String",
+   "columnDisplayName": "Location",
+   "columnName": "location"
+  }
+ ],
+ "schemaName": "jasper report",
+ "order": 0,
+ "tableName": "Asset"
+}
